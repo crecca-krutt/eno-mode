@@ -5,8 +5,8 @@ LISPDIRS = lisp
 INSTSUB = $(LISPDIRS:%=install-%)
 
 ifneq ($(wildcard .git),)
-  GITVERSION ?= $(shell git describe --match release\* --abrev=6 HEAD)
-  ENOVERSION ?= $(subst release_,,$(shell git describe --match release\* --abrev=0 HEAD)
+  GITVERSION ?= $(shell git describe --match release\* --abbrev=6 HEAD)
+  ENOVERSION ?= $(subst release_,,$(shell git describe --match release\* --abrev=0 HEAD))
   GITSTATUS ?= $(shell git status -uno --porcelain)
 else
  -include mk/version.mk
