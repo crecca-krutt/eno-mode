@@ -50,8 +50,8 @@ In Org mode you can specify categories for all notes in a file with
 property. Eno introduces concept of subcategories. Each category can
 have subcategories, and you specify them by providing their
 paths. Category paths are similar to file paths in a file system: for
-example a path `computing/web` defines a category `=web`, which is a
-subcategory of `=computing`. If you defined a category elsewhere in the
+example a path `computing/web` defines a category `web`, which is a
+subcategory of `computing`. If you defined a category elsewhere in the
 note system (in a different note file), you don't have to provide its
 full path – only its part that uniquely identifies it. In our example
 we could create another notefile with category `web/development`. System
