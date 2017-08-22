@@ -75,7 +75,7 @@ table. In Org mode you can create [clock table](https://www.gnu.org/software/ema
 presents clocking information contained within the notes in a nice
 form of a table, like so:
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="none">
 
 
 <colgroup>
@@ -242,7 +242,7 @@ on fruits, how much on vegetables, and how much on other things. To
 create a category clock table, simply write `catclocktable` instead of
 `clocktable`, and update the table.
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="none">
 
 
 <colgroup>
