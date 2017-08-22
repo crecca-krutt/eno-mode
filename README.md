@@ -59,7 +59,7 @@ already knows that `web` is a subcategory of `computing`, and so we don't
 need to include it in path.
 
 There are situations where two or more categories share a name, but
-have different names. For example category `project` might useful as a
+have different paths. For example category `project` might useful as a
 subcategory of `web`, but also as a subcategory of `computing`. Eno allows
 it by requiring paths that uniquely identify such categories. And so a
 project for a client of a website "comic-books.org" would have a note
@@ -75,7 +75,7 @@ table. In Org mode you can create [clock table](https://www.gnu.org/software/ema
 presents clocking information contained within the notes in a nice
 form of a table, like so:
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="none">
 
 
 <colgroup>
@@ -242,7 +242,7 @@ on fruits, how much on vegetables, and how much on other things. To
 create a category clock table, simply write `catclocktable` instead of
 `clocktable`, and update the table.
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="none">
 
 
 <colgroup>
