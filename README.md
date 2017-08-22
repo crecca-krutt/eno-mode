@@ -75,7 +75,8 @@ table. In Org mode you can create [clock table](https://www.gnu.org/software/ema
 presents clocking information contained within the notes in a nice
 form of a table, like so:
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="none">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="none"
+	style="font-family:monospace; color:navy">
 
 
 <colgroup>
@@ -96,16 +97,16 @@ form of a table, like so:
 <tbody>
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">ALL **Total time**</td>
-<td class="org-right">**3:32**</td>
+<td class="org-left">ALL <b>Total time</b></td>
+<td class="org-right"><b>3:32</b></td>
 </tr>
 </tbody>
 
 <tbody>
 <tr>
 <td class="org-left">food.org</td>
-<td class="org-left">**File time**</td>
-<td class="org-right">**3:32**</td>
+<td class="org-left"><b>File time</b></td>
+<td class="org-right"><b>3:32</b></td>
 </tr>
 
 
@@ -242,7 +243,8 @@ on fruits, how much on vegetables, and how much on other things. To
 create a category clock table, simply write `catclocktable` instead of
 `clocktable`, and update the table.
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="none">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="none"
+	style="font-family:monospace; color:navy">
 
 
 <colgroup>
@@ -266,8 +268,8 @@ create a category clock table, simply write `catclocktable` instead of
 <tbody>
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">ALL **Total time**</td>
-<td class="org-right">**3:32**</td>
+<td class="org-left">ALL <b>Total time</b></td>
+<td class="org-right"><b>3:32</b></td>
 <td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
@@ -275,9 +277,9 @@ create a category clock table, simply write `catclocktable` instead of
 <tbody>
 <tr>
 <td class="org-left">Food</td>
-<td class="org-left">**Category time**</td>
-<td class="org-right">**3:19**</td>
-<td class="org-left">**3:32**</td>
+<td class="org-left"><b>Category time</b></td>
+<td class="org-right"><b>3:19</b></td>
+<td class="org-left"><b>3:32</b></td>
 </tr>
 
 
@@ -387,9 +389,9 @@ create a category clock table, simply write `catclocktable` instead of
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">    `helping neighbour`</td>
-<td class="org-right">`0:00`</td>
-<td class="org-left">`0:13`</td>
+<td class="org-left">    <span style="color:gray">helping neighbour</span></td>
+<td class="org-right"><span style="color:gray">0:00</span></td>
+<td class="org-left"><span style="color:gray">0:13</span></td>
 </tr>
 
 
@@ -403,17 +405,17 @@ create a category clock table, simply write `catclocktable` instead of
 
 <tr>
 <td class="org-left">Food/Fruits</td>
-<td class="org-left">**Category time**</td>
-<td class="org-right">**1:06**</td>
-<td class="org-left">**1:50**</td>
+<td class="org-left"><b>Category time</b></td>
+<td class="org-right"><b>1:06</b></td>
+<td class="org-left"><b>1:50</b></td>
 </tr>
 
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">`get items`</td>
-<td class="org-right">`0:45`</td>
-<td class="org-left">`1:00`</td>
+<td class="org-left"><span style="color:gray">get items</span></td>
+<td class="org-right"><span style="color:gray">0:45</span></td>
+<td class="org-left"><span style="color:gray">1:00</span></td>
 </tr>
 
 
@@ -443,17 +445,17 @@ create a category clock table, simply write `catclocktable` instead of
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">`garden food`</td>
-<td class="org-right">`0:21`</td>
-<td class="org-left">`0:50`</td>
+<td class="org-left"><span style="color:gray">garden food</span></td>
+<td class="org-right"><span style="color:gray">0:21</span></td>
+<td class="org-left"><span style="color:gray">0:50</span></td>
 </tr>
 
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">  `watering`</td>
-<td class="org-right">`0:14`</td>
-<td class="org-left">`0:21`</td>
+<td class="org-left">  <span style="color:gray">watering</span></td>
+<td class="org-right"><span style="color:gray">0:14</span></td>
+<td class="org-left"><span style="color:gray">0:21</span></td>
 </tr>
 
 
@@ -475,9 +477,9 @@ create a category clock table, simply write `catclocktable` instead of
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">  `picking`</td>
-<td class="org-right">`0:07`</td>
-<td class="org-left">`0:14`</td>
+<td class="org-left">  <span style="color:gray">picking</span></td>
+<td class="org-right"><span style="color:gray">0:07</span></td>
+<td class="org-left"><span style="color:gray">0:14</span></td>
 </tr>
 
 
@@ -499,17 +501,17 @@ create a category clock table, simply write `catclocktable` instead of
 
 <tr>
 <td class="org-left">Food/Vegetables</td>
-<td class="org-left">**Category time**</td>
-<td class="org-right">**0:59**</td>
-<td class="org-left">**1:43**</td>
+<td class="org-left"><b>Category time</b></td>
+<td class="org-right"><b>0:59</b></td>
+<td class="org-left"><b>1:43</b></td>
 </tr>
 
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">`get items`</td>
-<td class="org-right">`0:45`</td>
-<td class="org-left">`1:00`</td>
+<td class="org-left"><span style="color:gray">get items</span></td>
+<td class="org-right"><span style="color:gray">0:45</span></td>
+<td class="org-left"><span style="color:gray">1:00</span></td>
 </tr>
 
 
@@ -539,17 +541,17 @@ create a category clock table, simply write `catclocktable` instead of
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">`garden food`</td>
-<td class="org-right">`0:14`</td>
-<td class="org-left">`0:43`</td>
+<td class="org-left"><span style="color:gray">garden food</span></td>
+<td class="org-right"><span style="color:gray">0:14</span></td>
+<td class="org-left"><span style="color:gray">0:43</span></td>
 </tr>
 
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">  `watering`</td>
-<td class="org-right">`0:07`</td>
-<td class="org-left">`0:14`</td>
+<td class="org-left">  <span style="color:gray">watering</span></td>
+<td class="org-right"><span style="color:gray">0:07</span></td>
+<td class="org-left"><span style="color:gray">0:14</span></td>
 </tr>
 
 
@@ -563,9 +565,9 @@ create a category clock table, simply write `catclocktable` instead of
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">  `picking`</td>
-<td class="org-right">`0:07`</td>
-<td class="org-left">`0:14`</td>
+<td class="org-left">  <span style="color:gray">picking</span></td>
+<td class="org-right"><span style="color:gray">0:07</span></td>
+<td class="org-left"><span style="color:gray">0:14</span></td>
 </tr>
 
 
@@ -588,24 +590,24 @@ create a category clock table, simply write `catclocktable` instead of
 <tbody>
 <tr>
 <td class="org-left">Free</td>
-<td class="org-left">**Category time**</td>
-<td class="org-right">**0:13**</td>
-<td class="org-left">**0:13**</td>
+<td class="org-left"><b>Category time</b></td>
+<td class="org-right"><b>0:13</b></td>
+<td class="org-left"><b>0:13</b></td>
 </tr>
 
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">`garden food`</td>
-<td class="org-right">`0:13`</td>
+<td class="org-left"><span style="color:gray">garden food</span></td>
+<td class="org-right"><span style="color:gray">0:13</span></td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">  `picking`</td>
-<td class="org-right">`0:13`</td>
+<td class="org-left">  <span style="color:gray">picking</span></td>
+<td class="org-right"><span style="color:gray">0:13</span></td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
