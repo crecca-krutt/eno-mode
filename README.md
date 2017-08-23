@@ -309,7 +309,7 @@ create a category clock table, simply write `catclocktable` instead of
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">  steak</td>
+<td class="org-left">  don't forget a steak</td>
 <td class="org-right">0:15</td>
 <td class="org-left">&#xa0;</td>
 </tr>
@@ -317,7 +317,7 @@ create a category clock table, simply write `catclocktable` instead of
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">  find a delicious snail in the backyard</td>
+<td class="org-left">  prepare mushrooms</td>
 <td class="org-right">0:15</td>
 <td class="org-left">&#xa0;</td>
 </tr>
