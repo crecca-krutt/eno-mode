@@ -711,11 +711,11 @@ PROPERTIES: The list properties specified in the `:properties' parameter
 			      (funcall ,matcher nil tags-list nil)))
 		       (if catclock
 			   `(lambda()
-			      (funcall 'eno-cat-clock-table-matcher section t))))
+			      (funcall 'eno-cat-clock-table-matcher ,section t))))
 		     :eno-cat-clock-plus)
       (setq org-time-plus-total-minutes org-clock-file-total-minutes)
       (if catclock
-	  (org-clock-sum ts te `(lambda() (funcall 'eno-cat-clock-table-matcher section)) :eno-cat-clock))
+	  (org-clock-sum ts te `(lambda() (funcall 'eno-cat-clock-table-matcher ,section)) :eno-cat-clock))
       (goto-char (point-min))
       (setq st t)
       (while (or (and (bobp) (prog1 st (setq st nil))
@@ -877,7 +877,7 @@ from the dynamic block definition."
     (insert-before-markers
      "|"				;table line starter
      (if multifile			;file column, maybe
-	 (concat (org-clock--translate "File" lang) "|")
+	 (concat "Category" "|")
        "")
      (if level?				;level column, maybe
 	 (concat (org-clock--translate "L" lang) "|")
