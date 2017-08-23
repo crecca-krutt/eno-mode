@@ -88,7 +88,6 @@ form of a table, like so:
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">File</th>
 <th scope="col" class="org-left">Headline</th>
 <th scope="col" class="org-right">Time</th>
 </tr>
@@ -96,7 +95,6 @@ form of a table, like so:
 
 <tbody>
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">ALL <b>Total time</b></td>
 <td class="org-right"><b>3:32</b></td>
 </tr>
@@ -104,133 +102,114 @@ form of a table, like so:
 
 <tbody>
 <tr>
-<td class="org-left">food.org</td>
 <td class="org-left"><b>File time</b></td>
 <td class="org-right"><b>3:32</b></td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">get items</td>
 <td class="org-right">2:15</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;from the corner shop</td>
 <td class="org-right">0:45</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;&ensp;&ensp;celery</td>
 <td class="org-right">0:15</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;&ensp;&ensp;tomato</td>
 <td class="org-right">0:15</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;from the city</td>
 <td class="org-right">0:45</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;&ensp;&ensp;orange</td>
 <td class="org-right">0:15</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;&ensp;&ensp;banana</td>
 <td class="org-right">0:15</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;don't forget a steak</td>
 <td class="org-right">0:15</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;prepare mushrooms</td>
 <td class="org-right">0:15</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">garden food</td>
 <td class="org-right">1:17</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;watering</td>
 <td class="org-right">0:28</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;&ensp;&ensp;potatoes</td>
 <td class="org-right">0:07</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;&ensp;&ensp;apple tree</td>
 <td class="org-right">0:07</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;&ensp;&ensp;pineapple</td>
 <td class="org-right">0:07</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;picking</td>
 <td class="org-right">0:34</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;&ensp;&ensp;onions</td>
 <td class="org-right">0:07</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;&ensp;&ensp;strawberries</td>
 <td class="org-right">0:07</td>
 </tr>
 
 
 <tr>
-<td class="org-left">&#xa0;</td>
 <td class="org-left">&ensp;&ensp;&ensp;&ensp;helping a neighbour</td>
 <td class="org-right">0:13</td>
 </tr>
