@@ -1,8 +1,3 @@
-This is an official distribution of Eno, personal information
-management program. Right now it is Emacs' mode derived from org-mode,
-and providing additional functionality.
-
-
 # Installation
 
 To install Eno mode in your Emacs, compile it from source with `make
