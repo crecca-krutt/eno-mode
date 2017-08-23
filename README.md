@@ -75,6 +75,7 @@ table. In Org mode you can create [clock table](https://www.gnu.org/software/ema
 presents clocking information contained within the notes in a nice
 form of a table, like so:
 
+<code>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="none">
 
 
@@ -235,6 +236,7 @@ form of a table, like so:
 </tr>
 </tbody>
 </table>
+</code>
 
 However with Eno, you can group notes by their categories and
 subcategories to learn more where your time went: how much was spent
@@ -242,6 +244,7 @@ on fruits, how much on vegetables, and how much on other things. To
 create a category clock table, simply write `catclocktable` instead of
 `clocktable`, and update the table.
 
+<code>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="none">
 
 <colgroup>
@@ -625,6 +628,7 @@ create a category clock table, simply write `catclocktable` instead of
 </tr>
 </tbody>
 </table>
+</code>
 
 Category clock table divides table into sections, one per category. It
 also lists two time columns in place of one. Second column includes
