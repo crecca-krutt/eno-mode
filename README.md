@@ -231,7 +231,7 @@ form of a table, like so:
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">&ensp;&ensp;&ensp;&ensp;helping neighbour</td>
+<td class="org-left">&ensp;&ensp;&ensp;&ensp;helping a neighbour</td>
 <td class="org-right">0:13</td>
 </tr>
 </tbody>
@@ -389,7 +389,7 @@ create a category clock table, simply write `catclocktable` instead of
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">    <em>helping neighbour</em></td>
+<td class="org-left">    <em>helping a neighbour</em></td>
 <td class="org-right"><em>0:00</em></td>
 <td class="org-left"><em>0:13</em></td>
 </tr>
@@ -614,7 +614,7 @@ create a category clock table, simply write `catclocktable` instead of
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">    helping neighbour</td>
+<td class="org-left">    helping a neighbour</td>
 <td class="org-right">0:13</td>
 <td class="org-left">&#xa0;</td>
 </tr>
